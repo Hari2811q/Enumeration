@@ -1,4 +1,4 @@
-# Enumeration
+![image](https://github.com/user-attachments/assets/863f00be-dbd9-48af-b3dc-c1a49dad437c)# Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
@@ -32,22 +32,29 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![image](https://github.com/user-attachments/assets/c622fb1c-7dea-4665-a57b-350160678669)
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![image](https://github.com/user-attachments/assets/7b917491-3cba-41ba-802a-0bf638da71c6)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![image](https://github.com/user-attachments/assets/c90ad0b7-fb07-4349-b18b-80d07b65436a)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![image](https://github.com/user-attachments/assets/1a6b71d2-4118-46e6-b70c-d32871e80fee)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![image](https://github.com/user-attachments/assets/da248ac9-bfc0-4369-a487-fa6b4c16e039)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![image](https://github.com/user-attachments/assets/c0cf391e-ba52-4b10-99fd-13ee835493f1)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
 
  
 #DNS Enumeration
@@ -60,6 +67,7 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/5ee5afb5-e2e7-4b2b-919c-4b1262827f6e)
 
 
 
@@ -69,6 +77,9 @@ Top level domain expansion
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+
+![image](https://github.com/user-attachments/assets/f1c36061-7fb6-474f-ae3d-643ef89c3138)
+
 
 Get the host’s addresses (A record).
 Get the namservers (threaded).
@@ -82,7 +93,7 @@ Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -96,9 +107,11 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
   
-  
+
+ ![image](https://github.com/user-attachments/assets/890b3c8f-1eeb-4b22-9035-e292f7f5423f)
+ 
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -106,6 +119,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/79cf55a2-8b60-4fee-b072-4bd068baa50f)
 
 
 ## RESULT:
